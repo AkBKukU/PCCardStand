@@ -12,7 +12,7 @@ module stand()
 {difference(){
 	cube([span,thickness*3,height+1],true);
 
-	translate([0,0,height+1])
+	translate([0,0,1])
 		cube([width,thickness,height+1],true);
 	translate([0,-thickness*1.5,1+slot])
 		cube([width,thickness*3,height+1],true);
